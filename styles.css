@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #f8cccc;
+    color: #494848;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9b8383;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.destaque-card,
+.livro-card {
+    background-color: #fff;
+    border-radius: 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.destaque-card img,
+.livro-card img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.destaque-card h3,
+.livro-card h3 {
+    margin: 15px 0;
+}
+
+.destaque-card p,
+.livro-card p {
+    margin-bottom: 15px;
+}
+
+
+.destaque-card2,
+.livro-card {
+    background-color: #fff;
+    border-radius: 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.destaque-card2 img,
+.livro-card img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.destaque-card h3,
+.livro-card h3 {
+    margin: 15px 0;
+}
+
+.destaque-card p,
+.livro-card p {
+    margin-bottom: 15px;
+}
+
+
+.livro-card4 {
+    background-color: #fff;
+    border-radius: 0%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.livro-card4 img {
+    width: 10%;
+    border-radius: 5px;
+}
+
+
+.livro-card4 h3 {
+    margin: 15px 0;
+}
+
+
+.livro-card4 p {
+    margin-bottom: 15px;
+}
+
+
+
+
+.btn {
+    background-color: #ecdc7f;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+}
+
+
+.containercadastro{
+align-content: center;
+padding: 40px;
+text-align: center;
+}
+
+
+
+footer {
+    background-color: #b39494;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: small;
+}
