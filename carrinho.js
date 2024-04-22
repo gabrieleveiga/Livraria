@@ -1,7 +1,14 @@
 // Recuperar itens do carrinho do localStorage e exibi-los na página
 document.addEventListener('DOMContentLoaded', function() {
     const carrinhoItens = JSON.parse(localStorage.getItem('carrinho')) || [];
+ let arrCadastro = []
 
+
+
+
+   arrCadastro.push (cadastro)
+   console.log(arrCadastro);
+   
     const carrinhoContainer = document.getElementById('carrinho-itens');
     carrinhoContainer.innerHTML = '';
 
